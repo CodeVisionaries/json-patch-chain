@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import sys
 import jsonpatch
 import hashlib
 from datetime import datetime
@@ -68,9 +69,8 @@ def create_data_block_from_tape(tape: tk.tree.Tape) -> dict:
         "zai": zai,
         "mf3": {
             "mt1": {
-                # just show the first 10 for testing
-                "energies": energies[:10],
-                "xs": xs[:10],
+                "energies": energies,
+                "xs": xs,
             }
         },
     }
