@@ -11,12 +11,16 @@ Requires ENDFtk to be compiled for your python version.
 Follow the setup from the njoy GitHub [here](https://github.com/njoy/ENDFtk).
 
 
-`export PYTHONPATH=/path/to/dir/containing/ENDFtk.so`
+```bash
+export PYTHONPATH=/path/to/dir/containing/ENDFtk.so
+```
 
 
 And install jsonpatch library.
 
-`pip install jsonpatch`
+```bash
+pip install jsonpatch
+```
 
 
 ## Example
