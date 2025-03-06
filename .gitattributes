@@ -1,0 +1,2 @@
+92-U-235g.jeff33 filter=lfs diff=lfs merge=lfs -text
+92-U-238g.jeff33 filter=lfs diff=lfs merge=lfs -text
